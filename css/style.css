@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
 
 /* UTILITY */
 :root{
@@ -23,8 +27,30 @@
 }
 
 /* HEADER */
+header{
+    background-color: var(--bg-header);
+    padding: 20px;
+}
 .h-container{
     justify-content: space-between;
+    align-content: center;
+}
+.logo{
+    justify-content: center;
+}
+.logo > img{
+    width:20%;
+}
+.account, nav{
+    align-items: center;
+}
+ul{
+    list-style: none;
+    gap:10px;
+}
+a{
+    text-decoration: none;
+    color: white; 
 }
 
 /* MAIN */
