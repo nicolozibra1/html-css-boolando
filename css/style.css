@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+:root{
+    --bg-header: #ff6900;
+    --bg-footer: #1a1a1a;
+    --sales-red: #ff0000;
+    --eco-green: #008000;
+}
