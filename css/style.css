@@ -25,11 +25,27 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+/* HOVER EFFECT */
+.img-b{
+    display:none;
+}
+.photo-container:hover .img-b{
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:block;
+    z-index: 1;
+    cursor: pointer;
+}
+.wishlist:hover{
+    color: var(--sales-red);
+    cursor: pointer;
+}
 /* HEADER */
 header{
     background-color: var(--bg-header);
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .h-container{
     justify-content: space-between;
@@ -67,14 +83,12 @@ a{
 .card, .description{
     flex-flow: column wrap;
 }
-
 .photo-container{
     position: relative;
 }
 .card-photo{
     width: 100%;
 }
-
 .sales{
     background-color: var(--sales-red);
     position:absolute;
@@ -96,6 +110,7 @@ a{
 .sales, .eco, .eco-6{
     color: white;
     padding:3px 8px;
+    z-index:1;
 }
 .wishlist{
     background-color: white;
@@ -104,6 +119,7 @@ a{
     position: absolute;
     top: 10px;
     right: 0;
+    z-index:1;
 }
 .price{
     color: var(--sales-red);
