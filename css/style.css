@@ -11,3 +11,40 @@
     --sales-red: #ff0000;
     --eco-green: #008000;
 }
+.debug{
+    border: 2px solid black;
+}
+.d-flex{
+    display: flex;
+}
+.middle{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.h-container{
+    justify-content: space-between;
+}
+
+/* MAIN */
+.card-container{
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 33%;
+    
+}
+.card, .description{
+    flex-flow: column wrap;
+}
+
+.card-photo{
+    width: 100%;
+}
+
+/* FOOTER */
+.f-container{
+    justify-content: space-between;
+}
