@@ -16,7 +16,7 @@ body{
     --eco-green: #008000;
 }
 .debug{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .d-flex{
     display: flex;
@@ -128,6 +128,30 @@ a{
     text-decoration:line-through;
 }
 /* FOOTER */
+footer{
+    background-color: var(--bg-footer);
+}
 .f-container{
     justify-content: space-between;
+}
+.info, .social{
+    padding: 20px 0;
+}
+h4{
+    font-size:18px;
+}
+.agency, .info-link{
+    color: white;
+    padding: 5px 0;
+}
+.social{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.social > span{
+    color: white;
+    font-size:12px;
+    text-align: center;
 }
